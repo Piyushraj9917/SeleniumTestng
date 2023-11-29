@@ -23,7 +23,7 @@ public class Siblings {
         driver.get("https://rahulshettyacademy.com/");
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//a[contains(@href,'practice-project')]")).click();
-        driver.findElement(By.id("name")).sendKeys("Piyush Raj Ahlawat");
+        driver.findElement(By.id("name")).sendKeys("Piyush Raj");
         driver.findElement(By.id("email")).sendKeys("rajpiyu4101997@gmail.com");
         driver.findElement(By.id("form-submit")).click();
        // driver.findElement(By.className("theme-btn register-btn")).click();
